@@ -6,6 +6,8 @@ from PySide6.QtCore import QThread, Signal, QObject
 import os
 import shutil
 import time
+from tts_engines.styletts import StyleTTS
+
 
 if os.path.exists("runtime"):
     # Get the directory where the script is located
